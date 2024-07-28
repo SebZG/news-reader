@@ -11,7 +11,7 @@ export const loadAllPreviews = createAsyncThunk(
 
 export const articlePreviewsSlice = createSlice({
    name: "articlePreviews",
-   initialSate: {
+   initialState: {
       articles: [],
       isLoadingArticlePreviews: false,
       hasError: false
