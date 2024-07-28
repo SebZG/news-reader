@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import articlePreviewReducer from "../features/articlePreviews/articlePreviewsSlice.js";
-import currentArticleReducer from "../features/currentArticle/currentArticleSlice.js";
-import commentsReducer from "../features/comments/commentsSlice.js";
+import articlePreviewsReducer from '../features/articlePreviews/articlePreviewsSlice';
+import currentArticleReducer from '../features/currentArticle/currentArticleSlice';
+import commentsReducer from '../features/comments/commentsSlice';
 
 export default configureStore({
    reducer: {
-      articlePreviews: articlePreviewReducer,
+      articlePreviews: articlePreviewsReducer,
       currentArticle: currentArticleReducer,
       comments: commentsReducer
    },
