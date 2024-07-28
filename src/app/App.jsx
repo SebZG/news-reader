@@ -1,4 +1,4 @@
-// import ArticlePreviews from '../features/articlePreviews/ArticlePreviews';
+import ArticlePreviews from '../features/articlePreviews/ArticlePreviews';
 // import CurrentArticle from '../features/currentArticle/CurrentArticle';
 // import Comments from '../features/comments/Comments';
 
@@ -13,7 +13,7 @@ function App() {
 					{/* <CurrentArticle /> */}
 					{/* <Comments /> */}
 				</div>
-				{/* <ArticlePreviews */}
+				<ArticlePreviews />
 			</main>
 		</div>
 	);
